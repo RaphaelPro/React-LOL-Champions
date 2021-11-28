@@ -1,0 +1,62 @@
+.posts {
+  display: grid;
+  justify-content: center;
+
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: #eee;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+}
+
+.post {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 100ms ease-in-out;
+}
+
+.post h1 {
+  font-family: "BeaufortforLOL-Bold", Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.post h3 {
+  font-size: 1.1rem;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  padding: 0 0 10px 0;
+}
+
+.post p {
+  font-weight: 400;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+.post:hover {
+  transform: scale(1.05);
+}
+
+.post img {
+  max-width: 100%;
+  height: auto;
+}
+
+.post-content {
+  padding: 30px;
+}
