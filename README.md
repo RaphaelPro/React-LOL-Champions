@@ -20,4 +20,4 @@ Aplicação feita com o intuito único de aprendizagem, utilizando da API fornec
 
 ## Exemplo
 
-[](https://github.com/RaphaelPro/React-LOL-Champions/raw/main/example_img.png)
+![Imagem](https://github.com/RaphaelPro/React-LOL-Champions/raw/main/example_img.png)
