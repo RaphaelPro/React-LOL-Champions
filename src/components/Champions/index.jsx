@@ -7,6 +7,7 @@ export const Champions = ({ champions }) => (
         key={champ.id}
         title={champ.title}
         description={champ.description}
+        urlInfo={champ.urlInfo}
         body={champ.body}
         id={champ.id}
         cover={champ.cover}

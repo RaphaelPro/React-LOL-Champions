@@ -16,12 +16,17 @@ export const loadChamps = async () => {
   console.log(champsJson);
   //Zipper
   const postsAndPhotos = Object.values(champsJson.data).map((champ, index) => {
+    var champSimpleName = champ.name
+      .toLowerCase()
+      .replaceAll(" ", "-")
+      .replaceAll("'", "-");
     return {
       //...post,
       title: champ.name,
       body: champ.blurb,
       description: champ.title,
       cover: `http://ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/${champ.image.full}`,
+      urlInfo: `https://www.leagueoflegends.com/pt-br/champions/${champSimpleName}/`,
       //cover: photosJson[index].url,
     };
   });

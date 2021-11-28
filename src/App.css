@@ -42,6 +42,7 @@
 }
 
 .post p {
+  margin-bottom: 30px;
   font-weight: 400;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   text-align: justify;
@@ -55,6 +56,13 @@
 .post img {
   max-width: 100%;
   height: auto;
+}
+
+.post a {
+  background: #4267b2;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
 }
 
 .post-content {
